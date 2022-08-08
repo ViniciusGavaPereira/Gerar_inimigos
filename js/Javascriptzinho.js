@@ -1,4 +1,4 @@
-var inimigos = ['Lobo', 'Rato',  'Esqueleto', 'Zumbi', 'Soldado']
+var inimigos = ['Lobo', 'Rato',  'Esqueleto', 'Zumbi', 'Soldado','Berserker']
 
 var skills = {
     'Lobo': {
@@ -30,6 +30,11 @@ var skills = {
         força: 11,
         velocidade: 9,
     },
+    'Berserker':{
+        vida: 19,
+        força: 16,
+        velocidade: 8,
+    }
 
 }
 
